@@ -44,10 +44,10 @@ class CS1Image(QImage):
         return (r, g, b, a)
 
     def set_pixel(self, x, y, r, g, b, a = 1.0):
-        ri  = int(r * 255)
-        gi  = int(g * 255)
-        bi  = int(b * 255)
-        ai  = int(a * 255)
+        ri = int(r * 255)
+        gi = int(g * 255)
+        bi = int(b * 255)
+        ai = int(a * 255)
 
         qrgba = qRgba ( ri, gi, bi, ai )
         self.setPixel(x, y, qrgba)
