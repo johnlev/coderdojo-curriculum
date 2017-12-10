@@ -76,11 +76,15 @@
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/model.playground/Contents.swift" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/model.playground/contents.xcplayground" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/process_model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week2/activity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week1/Introduction.key" afterPath="$PROJECT_DIR$/Week1/Introduction.key" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week2/ConditionalsAndVariables.key" afterPath="$PROJECT_DIR$/Week2/ConditionalsAndVariables.key" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/.idea/workspace.xml" afterPath="$USER_HOME$/Documents/MATLAB/mltest/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/__init__.py" afterPath="$USER_HOME$/Documents/MATLAB/mltest/__init__.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/all2.csv" afterPath="$USER_HOME$/Documents/MATLAB/mltest/all2.csv" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/testing.csv" afterPath="$USER_HOME$/Documents/MATLAB/mltest/testing.csv" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/training.csv" afterPath="$USER_HOME$/Documents/MATLAB/mltest/training.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,51 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/__init__.py">
+      <file leaf-file-name="activity.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week2/activity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/process_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week1/activity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="car_activity.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week1/car_activity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nearest_neighbor_classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/lib/python2.7/site-packages/turicreate/toolkits/classifier/nearest_neighbor_classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,6 +129,7 @@
         <option value="$USER_HOME$/Documents/MATLAB/mltest/__init__.py" />
         <option value="$USER_HOME$/Documents/MATLAB/mltest/process_model.py" />
         <option value="$PROJECT_DIR$/Week1/car_activity.py" />
+        <option value="$PROJECT_DIR$/Week2/activity.py" />
       </list>
     </option>
   </component>
@@ -204,6 +169,11 @@
             </path>
             <path>
               <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curriculum" type="462c0819:PsiDirectoryNode" />
+              <item name="Week2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
               <item name="mltest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -238,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.activity">
+  <component name="RunManager" selected="Python.activity (1)">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,6 +222,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mltest" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/MATLAB/mltest/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="activity (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="curriculum" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2/activity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,19 +311,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.car_activity" />
       <item index="1" class="java.lang.String" itemvalue="Python.cs1lib" />
       <item index="2" class="java.lang.String" itemvalue="Python.activity" />
       <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
       <item index="4" class="java.lang.String" itemvalue="Python.process_model" />
+      <item index="5" class="java.lang.String" itemvalue="Python.activity (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.activity" />
-        <item index="1" class="java.lang.String" itemvalue="Python.process_model" />
-        <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="3" class="java.lang.String" itemvalue="Python.cs1lib" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.activity (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.activity" />
+        <item index="2" class="java.lang.String" itemvalue="Python.process_model" />
+        <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="4" class="java.lang.String" itemvalue="Python.cs1lib" />
       </list>
     </recent_temporary>
   </component>
@@ -355,13 +344,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17582418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4421699" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -621,14 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python2.7/site-packages/turicreate/toolkits/classifier/nearest_neighbor_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/xgboost.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -637,18 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Week1/car_activity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/process_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="4089">
+          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -661,10 +635,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week1/car_activity.py">
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/process_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python2.7/site-packages/turicreate/toolkits/classifier/nearest_neighbor_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/activity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
