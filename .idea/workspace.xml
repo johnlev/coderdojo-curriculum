@@ -2,88 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68d5dde5-d58f-43ff-8a48-ef4dacadde9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKit Test.xcworkspace/xcuserdata/john.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest.xcodeproj/project.xcworkspace/xcuserdata/john.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/ProximityKit" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test.xcodeproj/project.xcworkspace/xcuserdata/john.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/DALIRoom.mlmodel" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKit Test.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKit Test.xcworkspace/xcuserdata/john.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKit TestTests/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKit TestTests/MLKit_TestTests.swift" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest.xcodeproj/xcuserdata/john.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest/AppDelegate.swift" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest/Assets.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest/Base.lproj/LaunchScreen.storyboard" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest/Base.lproj/Main.storyboard" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest/ProximityKit.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/MLKitTest/ViewController.swift" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Podfile" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Podfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Manifest.lock" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Pods.xcodeproj/xcuserdata/john.xcuserdatad/xcschemes/Pods-MLKit Test.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Pods.xcodeproj/xcuserdata/john.xcuserdatad/xcschemes/Pods-MLKit TestTests.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Pods.xcodeproj/xcuserdata/john.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/ProximityKit.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKAccuracyManager.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKAnalyticsEvent.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKBeacon.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKBeaconRegion.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKCircle.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKKit.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKLogger.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKManager.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKManagerDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKMap.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Headers/RPKRegion.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/ProximityKit/ProximityKit.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test-acknowledgements.markdown" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test-acknowledgements.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test-frameworks.sh" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test-resources.sh" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test.debug.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit Test/Pods-MLKit Test.release.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests-acknowledgements.markdown" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests-acknowledgements.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests-frameworks.sh" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests-resources.sh" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests.debug.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/MLKit Test/Pods/Target Support Files/Pods-MLKit TestTests/Pods-MLKit TestTests.release.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test.xcodeproj/xcuserdata/john.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test/AppDelegate.swift" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test/Assets.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test/Base.lproj/LaunchScreen.storyboard" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test/Base.lproj/Main.storyboard" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/Test/ViewController.swift" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/TestTests/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/Test/TestTests/TestTests.swift" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/model.playground/Contents.swift" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/model.playground/contents.xcplayground" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/MATLAB/mltest/process_model.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week2/activity.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week1/Introduction.key" afterPath="$PROJECT_DIR$/Week1/Introduction.key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week2/ConditionalsAndVariables.key" afterPath="$PROJECT_DIR$/Week2/ConditionalsAndVariables.key" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/.idea/workspace.xml" afterPath="$USER_HOME$/Documents/MATLAB/mltest/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/__init__.py" afterPath="$USER_HOME$/Documents/MATLAB/mltest/__init__.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/all2.csv" afterPath="$USER_HOME$/Documents/MATLAB/mltest/all2.csv" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/testing.csv" afterPath="$USER_HOME$/Documents/MATLAB/mltest/testing.csv" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/MATLAB/mltest/training.csv" afterPath="$USER_HOME$/Documents/MATLAB/mltest/training.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week5/activity1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week5/animator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/curriculum.iml" afterPath="$PROJECT_DIR$/.idea/curriculum.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week2/activity.py">
+      <file leaf-file-name="cs1lib.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cs1lib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="-4557">
+              <caret line="407" column="0" lean-forward="true" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week5/activity1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -128,14 +62,19 @@
         <option value="$USER_HOME$/Documents/MATLAB/mltest/xgboost.py" />
         <option value="$USER_HOME$/Documents/MATLAB/mltest/__init__.py" />
         <option value="$USER_HOME$/Documents/MATLAB/mltest/process_model.py" />
-        <option value="$PROJECT_DIR$/Week1/car_activity.py" />
         <option value="$PROJECT_DIR$/Week2/activity.py" />
+        <option value="$PROJECT_DIR$/Week5/activity.py" />
+        <option value="$PROJECT_DIR$/Week5/animator.py" />
+        <option value="$PROJECT_DIR$/Week1/car_activity.py" />
+        <option value="$PROJECT_DIR$/Week5/activity1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-45" />
+    <option name="y" value="-24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -159,22 +98,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="curriculum" type="462c0819:PsiDirectoryNode" />
+              <item name="coderdojo-curriculum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderdojo-curriculum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="curriculum" type="462c0819:PsiDirectoryNode" />
+              <item name="coderdojo-curriculum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderdojo-curriculum" type="462c0819:PsiDirectoryNode" />
               <item name="Week1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="curriculum" type="462c0819:PsiDirectoryNode" />
-              <item name="Week2" type="462c0819:PsiDirectoryNode" />
+              <item name="coderdojo-curriculum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderdojo-curriculum" type="462c0819:PsiDirectoryNode" />
+              <item name="Week5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltest" type="462c0819:PsiDirectoryNode" />
+              <item name="coderdojo-curriculum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderdojo-curriculum" type="462c0819:PsiDirectoryNode" />
+              <item name="Week5" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,13 +128,14 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/venv/bin/python2.7" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SearchEverywhereHistoryKey" value="settings&#9;ACTION&#9;ShowSettings&#10;setting&#9;ACTION&#9;ShowSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/Documents/MATLAB/mltest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Documents/MATLAB/mltest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -208,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.activity (1)">
+  <component name="RunManager" selected="Python.activity1">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,6 +202,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="activity1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="curriculum" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week5/activity1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="car_activity" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,23 +232,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mltest" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/MATLAB/mltest/car_activity.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="cs1lib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="curriculum" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cs1lib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,24 +255,27 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.car_activity" />
-      <item index="1" class="java.lang.String" itemvalue="Python.cs1lib" />
-      <item index="2" class="java.lang.String" itemvalue="Python.activity" />
-      <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
-      <item index="4" class="java.lang.String" itemvalue="Python.process_model" />
-      <item index="5" class="java.lang.String" itemvalue="Python.activity (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.activity" />
+      <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="3" class="java.lang.String" itemvalue="Python.process_model" />
+      <item index="4" class="java.lang.String" itemvalue="Python.activity (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.activity1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.activity (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.activity1" />
         <item index="1" class="java.lang.String" itemvalue="Python.activity" />
-        <item index="2" class="java.lang.String" itemvalue="Python.process_model" />
-        <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="4" class="java.lang.String" itemvalue="Python.cs1lib" />
+        <item index="2" class="java.lang.String" itemvalue="Python.activity (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.process_model" />
+        <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -343,31 +288,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17582418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.502442" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4421699" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22077923" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -384,7 +329,17 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/__init__.py">
+    <entry file="file://$PROJECT_DIR$/cs1lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week5/activity1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -392,22 +347,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python2.7/site-packages/turicreate/toolkits/classifier/nearest_neighbor_classifier.py">
+    <entry file="file://$PROJECT_DIR$/Week5/animator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6336">
-          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/xgboost.py">
+    <entry file="file://$PROJECT_DIR$/Week2/activity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/__init__.py" />
+    <entry file="file://$USER_HOME$/venv/lib/python2.7/site-packages/turicreate/toolkits/classifier/nearest_neighbor_classifier.py" />
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/xgboost.py" />
     <entry file="file://$PROJECT_DIR$/cs1lib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14496">
@@ -419,7 +376,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3792">
           <caret line="159" column="9" lean-forward="false" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#101#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,7 +418,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4296">
           <caret line="180" column="17" lean-forward="false" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="e#101#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -516,7 +477,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#101#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -568,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs1lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="609" column="32" lean-forward="false" selection-start-line="609" selection-start-column="32" selection-end-line="609" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -597,72 +553,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/all2.csv">
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/all2.csv" />
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/DALIRoom.mlmodel" />
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/xgboost.py" />
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/process_model.py" />
+    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/__init__.py" />
+    <entry file="file://$USER_HOME$/venv/lib/python2.7/site-packages/turicreate/toolkits/classifier/nearest_neighbor_classifier.py" />
+    <entry file="file://$PROJECT_DIR$/Week2/activity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        <state relative-caret-position="210">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/DALIRoom.mlmodel">
+    <entry file="file://$PROJECT_DIR$/Week5/animator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/xgboost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="56" selection-end-column="61" />
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week1/car_activity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4089">
-          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#101#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week1/activity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="294">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/process_model.py">
+    <entry file="file://$PROJECT_DIR$/cs1lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-4557">
+          <caret line="407" column="0" lean-forward="true" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/MATLAB/mltest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Week5/res/bush.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python2.7/site-packages/turicreate/toolkits/classifier/nearest_neighbor_classifier.py">
+    <entry file="file://$PROJECT_DIR$/Week5/activity1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/activity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
