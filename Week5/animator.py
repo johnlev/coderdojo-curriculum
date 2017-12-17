@@ -1,1 +1,0 @@
-# Attempt to draw a scene
