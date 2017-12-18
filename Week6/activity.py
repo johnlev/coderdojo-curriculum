@@ -9,28 +9,34 @@ Activity Description:
 Last week, we covered that the order which elements are drawn on a canvas matters and that we can convey motion on
 screen by changing the position/shape of an element drawn on a canvas (animation). This week, we'll be expanding on
 animation by creating a simple game of pong. The main game loop has already been programmed and will function correctly
-once we code the appropriate behaviors to the Paddle and Ball class. For this activity, follow the methods below to
+once we code the appropriate behaviors for the Paddle and Ball class. For this activity, follow the steps below to
 create Pong.
 
+
+STEPS TO CODING PONG:
 STEP 1: Before anything else, we should get some elements to appear onscreen. For both Ball.py and Paddle.py, write
-some code that will draw these objects on screen within the 'draw' method.
-STEP 2: Next, we'll be first animating the ball. Each time a ball is spawned, it is assigned a random x and y speed.
+some code that will draw these objects on screen within their respective 'draw' method.
+
+STEP 2: Next, we'll be animating the ball. Each time a ball is spawned, it is assigned a random x and y speed.
 Utilizing these properties of the Ball, change the position of the ball accordingly within the 'calculatePosition'
 method of Ball.py.
+
 STEP 3: Now we'll be animating the movement of the paddles. This is done by setting the speed of the paddle when a
 key is pressed and changing the position of the paddle accordingly. In addition, if a key is released, then the speed
-is set to 0. Code this behavior within the 'movePaddleUp', 'movePaddleDown', 'stopPaddle', and 'calculatePosition'
-methods in Paddle.py. Make certain that the paddles don't travel offscreen.
+should be set to 0. Code this behavior within the 'movePaddleUp', 'movePaddleDown', 'stopPaddle', and 
+'calculatePosition' methods in Paddle.py. Make certain that the paddles don't travel off-screen.
+
 STEP 4: At this point, we have animated the ball and paddles for pong. However, you probably have noticed that the ball
-does not collide against the horizontal walls of the screen or the paddles. If a ball were to collide with either
-objects, we should expect that either the x or y speed of the ball to be inverted (kinda like how a ball bounces). For
+does not collide against anything in the scene. If a ball were to collide with either against any objects in the scene, 
+we should expect that either the x or y speed of the ball to be inverted (kinda like how a ball bounces). For
 this step, we will first add the behavior of the ball colliding against the horizontal wall of the screen in the
-'wallBounce' method in Ball.py. Afterwards, we will add the ball-paddle collision detection by first checking for a 
-collision in the 'checkCollision' method in Paddle.py and then code the appropriate bouncing behavior in the
-'paddleBounce' method in Ball.py.
+'wallBounce' method in Ball.py. Afterwards, we will add ball-paddle collision detection in the 'checkCollision' method 
+in Paddle.py and then code the appropriate bouncing behavior in the 'paddleBounce' method in Ball.py.
+
 STEP 5: We're almost done. Now that we've added interactivity between elements on screen, it's time to reward players
-points. If a ball were to fly offscreen past either paddle, we should give a point to the appropriate player. Within
-the 'checkGoal' method in Ball.py, code for this behavior.
+points. If a ball were to fly off-screen past either paddle, we should give a point to the appropriate player. Within
+the 'checkGoal' method in Ball.py, reward the correct player when the ball goes off-screen using the
+'game.reward_left_paddle(ball)' and 'game.reward_right_paddle(ball)' method calls.
 """
 
 from cs1lib import *
@@ -39,7 +45,7 @@ from Week6.Paddle import Paddle
 
 class PongGame:
     def __init__(self):
-        self.WIDTH = 800
+        self.WIDTH = 1200
         self.HEIGHT = self.WIDTH * (9/16)
 
         self.leftPoints = 0
@@ -48,7 +54,7 @@ class PongGame:
         self.rightPoints = 0
         self.rightFontSize = 25
 
-        self.winningPoint = 25
+        self.winningPoint = 7
         self.gameFinished = False
         self.winnerMessage = "{} Wins!"
 
@@ -143,12 +149,6 @@ enable_smoothing()
 game = PongGame()
 
 ballList = []
-ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
-ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
-ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
-ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
-ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
-ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
 ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
 
 leftPaddle = Paddle(10, game.HEIGHT / 2, 20, 100, 0.2, 0.9, 0.1, 'left', game)

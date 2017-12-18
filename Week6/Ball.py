@@ -1,5 +1,5 @@
 """
-Week 6 - Activity: Simple Pong
+Week 6 - Ball Class
 ---------
 AUTHOR: Edward Camp
 """
@@ -23,7 +23,6 @@ class Ball:
         self.acceleration = 1.025
 
     def paddleBounce(self, paddleName):
-        pass
         # ANSWER STARTS HERE
         if(paddleName == 'left' and self.vx < 0):
             self.vx *= -1 * self.acceleration
@@ -32,7 +31,6 @@ class Ball:
         # ANSWER ENDS HERE
 
     def wallBounce(self):
-        pass
         # ANSWER STARTS HERE
         if(self.y < 0 and self.vy < 0):
             self.vy *= -1
@@ -41,21 +39,20 @@ class Ball:
         # ANSWER ENDS HERE
 
     def checkGoal(self):
-        pass
-        if(self.x < 0):                     # ANSWER IS CONDITIONAL
+        # ANSWER STARTS HERE
+        if(self.x < 0):
             self.game.reward_right_paddle(self)
-        elif(self.x > self.game.WIDTH):     # ANSWER IS CONDITIONAL
+        elif(self.x > self.game.WIDTH):
             self.game.reward_left_paddle(self)
+        # ANSWER ENDS HERE
 
     def calculatePosition(self):
-        pass
         # ANSWER STARTS HERE
         self.x += self.vx
         self.y += self.vy
         # ANSWER ENDS HERE
 
     def draw(self):
-        pass
         # ANSWER STARTS HERE
         set_fill_color(self.r, self.g, self.b)
         draw_circle(self.x, self.y, self.radius)
