@@ -64,6 +64,8 @@ functions to paint the scene.
 # ==============================
 
 # Functions to call:
+
+
 draw_sun()
 draw_grass()
 draw_bush()

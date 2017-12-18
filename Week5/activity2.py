@@ -38,6 +38,6 @@ bouncing. The reality is that will be calculating the position of the ball depen
 the Ball.py file, add the necessary code and functionality to the ball to allow it to bounce.
 """
 
-for i in range(0, 50):
+for i in range(0, 10):
     add_ball()
 start_graphics(main_draw, width=WIDTH, height=HEIGHT, framerate=60)

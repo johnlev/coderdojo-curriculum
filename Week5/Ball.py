@@ -40,8 +40,7 @@ class Ball():
     def checkBounce(self, gravity, height):
         # ANSWER
         if self.y + self.radius > height and self.vy > 0:
-            self.vy *= -0.9
-            self.vy -= gravity * 1.05 # Correction to logic (Will fix later)
+            self.vy = -self.vy - gravity
         # END OF ANSWER
 
     def draw(self, gravity, height):
