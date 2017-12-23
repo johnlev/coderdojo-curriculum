@@ -8,7 +8,7 @@ guess = int(input("What is my favorite number? "))
 # =======================
 # You write the following
 
-my_favorite_number =
+my_favorite_number = 42
 
 # If the guess is less than your favorite number, tell the user
 
