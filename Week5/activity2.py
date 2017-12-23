@@ -13,15 +13,17 @@ GRAVITY = 1
 
 ballList = []
 
-def add_ball(x = None, y = None, rad = None, r = None, g = None, b = None):
-    x   = random.uniform(0, WIDTH) if x == None else x
-    y   = random.uniform(50, 300)  if y == None else y
-    rad = random.uniform(10, 30)   if rad == None else rad
-    r   = random.uniform(0, 1)     if r == None else r
-    g   = random.uniform(0, 1)     if g == None else g
-    b   = random.uniform(0, 1)     if b == None else b
+
+def add_ball(x=None, y=None, rad=None, r=None, g=None, b=None):
+    x = random.uniform(0, WIDTH) if x is None else x
+    y = random.uniform(50, 300) if y is None else y
+    rad = random.uniform(10, 30) if rad is None else rad
+    r = random.uniform(0, 1) if r is None else r
+    g = random.uniform(0, 1) if g is None else g
+    b = random.uniform(0, 1) if b is None else b
 
     ballList.append(Ball(x, y, rad, r, g, b))
+
 
 def main_draw():
     clear()
