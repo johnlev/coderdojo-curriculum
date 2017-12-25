@@ -8,7 +8,7 @@ class App(QWidget):
         super().__init__()
         self.title = 'Sorting Visualizer'
         self.width = 550
-        self.height = 600
+        self.height = 625
         self.fragDimension = 50
 
         self.pixmap = QPixmap("res/catimage.jpg")
@@ -45,6 +45,11 @@ class App(QWidget):
         self.radixSortButton.move(425, 550)
         self.radixSortButton.clicked.connect(self.sorter.radixsort)
 
+        self.getImageButton = QPushButton('Get new image', self)
+        self.getImageButton.setToolTip('Get a new image to sort')
+        self.getImageButton.move(225, 585)
+        self.getImageButton.clicked.connect(self.getNewImage)
+
         self.disableAllButtons()
         self.enableShuffleButton()
 
@@ -55,6 +60,7 @@ class App(QWidget):
 
     def enableShuffleButton(self):
         self.shuffleButton.setEnabled(True)
+        self.getImageButton.setEnabled(True)
 
     def enableSortingButtons(self):
         self.bubbleSortButton.setEnabled(True)
@@ -68,6 +74,29 @@ class App(QWidget):
         self.mergeSortButton.setEnabled(False)
         self.quickSortButton.setEnabled(False)
         self.radixSortButton.setEnabled(False)
+        self.getImageButton.setEnabled(False)
+
+
+    def getNewImage(self):
+        options = QFileDialog.Options()
+        options |= QFileDialog.DontUseNativeDialog
+        fileName, _ = QFileDialog.getOpenFileName(self, "Get image file", "res/",
+                                                  "Image Files (*.png *.jpg *.jpeg)", options=options)
+        if fileName:
+            newPixmap = QPixmap(fileName)
+            if(newPixmap.width() != 500 or newPixmap.height() != 500):
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Warning)
+
+                msg.setText("Incorrect Image Size")
+                msg.setInformativeText("Please choose an image file that is 500 x 500.\nYour image size: {} x {}".format(newPixmap.width(), newPixmap.height()))
+                msg.setWindowTitle("Warning: Incorrect Image Size")
+                msg.setStandardButtons(QMessageBox.Ok)
+                msg.exec_()
+
+            else:
+                self.pixmap = newPixmap
+                self.update()
 
     # An event-based paint method that is called each time an App.update() in called.
     # This redraws the shuffled image on the window based on the current state of self.sorter.
