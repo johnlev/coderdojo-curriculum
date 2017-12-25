@@ -8,7 +8,7 @@ class App(QWidget):
         super().__init__()
         self.title = 'Sorting Visualizer'
         self.width = 550
-        self.height = 750
+        self.height = 600
         self.fragDimension = 50
 
         self.pixmap = QPixmap("res/catimage.jpg")
@@ -27,28 +27,47 @@ class App(QWidget):
 
         self.bubbleSortButton = QPushButton('BubbleSort', self)
         self.bubbleSortButton.setToolTip('Start a bubble sort of the image')
-        self.bubbleSortButton.move(25, 580)
+        self.bubbleSortButton.move(125, 550)
         self.bubbleSortButton.clicked.connect(self.sorter.bubblesort)
 
         self.mergeSortButton = QPushButton('MergeSort', self)
         self.mergeSortButton.setToolTip('Start a merge sort of the image')
-        self.mergeSortButton.move(25, 610)
+        self.mergeSortButton.move(225, 550)
         self.mergeSortButton.clicked.connect(self.sorter.mergesort)
+
+        self.quickSortButton = QPushButton('QuickSort', self)
+        self.quickSortButton.setToolTip('Start a quick sort of the image')
+        self.quickSortButton.move(325, 550)
+        self.quickSortButton.clicked.connect(self.sorter.quicksort)
+
+        self.radixSortButton = QPushButton('RadixSort', self)
+        self.radixSortButton.setToolTip('Start a radix sort of the image')
+        self.radixSortButton.move(425, 550)
+        self.radixSortButton.clicked.connect(self.sorter.radixsort)
+
+        self.disableAllButtons()
+        self.enableShuffleButton()
 
     def centerFrame(self):
         resolution = QDesktopWidget().screenGeometry()
         self.move((resolution.width() / 2) - (self.frameSize().width() / 2),
                   (resolution.height() / 2) - (self.frameSize().height() / 2))
 
-    def enableButtons(self):
+    def enableShuffleButton(self):
         self.shuffleButton.setEnabled(True)
+
+    def enableSortingButtons(self):
         self.bubbleSortButton.setEnabled(True)
         self.mergeSortButton.setEnabled(True)
+        self.quickSortButton.setEnabled(True)
+        self.radixSortButton.setEnabled(True)
 
-    def disableButtons(self):
+    def disableAllButtons(self):
         self.shuffleButton.setEnabled(False)
         self.bubbleSortButton.setEnabled(False)
         self.mergeSortButton.setEnabled(False)
+        self.quickSortButton.setEnabled(False)
+        self.radixSortButton.setEnabled(False)
 
     # An event-based paint method that is called each time an App.update() in called.
     # This redraws the shuffled image on the window based on the current state of self.sorter.

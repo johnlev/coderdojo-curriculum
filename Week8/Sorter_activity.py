@@ -10,7 +10,11 @@ correct order of [2, 3, 4, 6, 9]. Similarly, computers do these comparisons but 
 the previous values, and new values to these positions when sorting, a task that is automatically done without thought
 for us. Hence, when coding (sorting) algorithms, each step must be coded in a logical order. For this week's activity,
 you will be coding some of the various sorting algorithms to sort a shuffled image back to its original state.
-This will be done within the 'Sorter_activity.py' class.
+This will be done within 'Sorter_activity.py'.
+
+We will be implementing bubblesort and mergesort in the 'bubblesort' and 'mergesortHelper' methods, respectively.
+Quicksort and Radixsort have already been implemented and are available for you to play with and get an idea what the 
+sorting algorithms you are implementing will do.
 '''
 
 class Sorter:
@@ -28,13 +32,18 @@ class Sorter:
                 self.subpixmapDict[x + y * fragDimension] = (x * width/fragDimension, y * height/fragDimension,
                                                              width/fragDimension, height/fragDimension)
 
+        self.shuffleUpdateThreshold = int(len(self.subpixmapKeys) / 100)
         self.bubblesortUpdateThreshold = 5000
-        self.mergesortUpdateThreshold = 50
+        self.mergesortUpdateThreshold = 40
+        self.quicksortUpdateThreshold = 10
+        self.radixsortUpdateThreshold = 25
         self.count = 0
 
     def bubblesort(self):
-        self.appWidget.disableButtons()
+        self.appWidget.disableAllButtons()
         self.count = 0
+
+        # ANSWER STARTS HERE
         for end in range(len(self.subpixmapKeys) - 1, 0, -1):
             for i in range(end):
                 self.count += 1
@@ -46,18 +55,20 @@ class Sorter:
                 if(self.count >= self.bubblesortUpdateThreshold):
                     self.count = 0
                     self.redraw()
+        # ANSWER ENDS HERE
 
         self.redraw()
-        self.appWidget.enableButtons()
+        self.appWidget.enableShuffleButton()
 
     def mergesort(self):
-        self.appWidget.disableButtons()
+        self.appWidget.disableAllButtons()
         self.count = 0
         self.mergesortHelper(0, len(self.subpixmapKeys) - 1)
         self.redraw()
-        self.appWidget.enableButtons()
+        self.appWidget.enableShuffleButton()
 
     def mergesortHelper(self, start, end):
+        # ANSWER STARTS HERE
         if(start != end):
             mid = int((start + end) / 2)
             leftIndices = (start, mid)
@@ -90,6 +101,115 @@ class Sorter:
                 if(self.count >= self.mergesortUpdateThreshold):
                     self.count = 0
                     self.redraw()
+        # ANSWER ENDS HERE
+
+    def quicksort(self):
+        self.appWidget.disableAllButtons()
+        self.count = 0
+        self.quicksortHelper(0, len(self.subpixmapKeys) - 1)
+        self.redraw()
+        self.appWidget.enableShuffleButton()
+
+    def quicksortHelper(self, start, end):
+        if start < end:
+            split = self.partition(start, end)
+
+            self.quicksortHelper(start, split - 1)
+            self.quicksortHelper(split + 1, end)
+
+    def partition(self, start, end):
+        pivot = self.subpixmapKeys[start]
+        leftIndex = start + 1
+        rightIndex = end
+
+        done = False
+        while not done:
+
+            while leftIndex <= rightIndex and self.subpixmapKeys[leftIndex] <= pivot:
+                leftIndex += 1
+
+            while self.subpixmapKeys[rightIndex] >= pivot and rightIndex >= leftIndex:
+                rightIndex -= 1
+
+            if rightIndex < leftIndex:
+                done = True
+            else:
+                self.count += 1
+                temp = self.subpixmapKeys[leftIndex]
+                self.subpixmapKeys[leftIndex] = self.subpixmapKeys[rightIndex]
+                self.subpixmapKeys[rightIndex] = temp
+                if (self.count > self.quicksortUpdateThreshold):
+                    self.count = 0
+                    self.redraw()
+
+        self.count += 1
+        temp = self.subpixmapKeys[start]
+        self.subpixmapKeys[start] = self.subpixmapKeys[rightIndex]
+        self.subpixmapKeys[rightIndex] = temp
+        if (self.count > self.quicksortUpdateThreshold):
+            self.count = 0
+            self.redraw()
+
+        return rightIndex
+
+    # Method to do Radix Sort
+    # Source: https://www.geeksforgeeks.org/radix-sort/
+    def radixsort(self):
+        self.appWidget.disableAllButtons()
+        self.count = 0
+
+        # Find the maximum number to know number of digits
+        max1 = max(self.subpixmapKeys)
+
+        # Do counting sort for every digit. Note that instead
+        # of passing digit number, exp is passed. exp is 10^i
+        # where i is current digit number
+        exp = 1
+        while max1 / exp > 1:
+            self.countingsort(exp)
+            exp *= 10
+
+        self.redraw()
+        self.appWidget.enableShuffleButton()
+
+    # Source: https://www.geeksforgeeks.org/radix-sort/
+    def countingsort(self, exp1):
+
+        n = len(self.subpixmapKeys)
+
+        # The output array elements that will have sorted arr
+        output = [0] * (n)
+
+        # initialize count array as 0
+        count = [0] * (10)
+
+        # Store count of occurrences in count[]
+        for i in range(0, n):
+            index = int(self.subpixmapKeys[i] / exp1)
+            count[(index) % 10] += 1
+
+        # Change count[i] so that count[i] now contains actual
+        #  position of this digit in output array
+        for i in range(1, 10):
+            count[i] += count[i - 1]
+
+        # Build the output array
+        i = n - 1
+        while i >= 0:
+            index = int(self.subpixmapKeys[i] / exp1)
+            output[count[(index) % 10] - 1] = self.subpixmapKeys[i]
+            count[(index) % 10] -= 1
+            i -= 1
+
+        # Copying the output array to arr[],
+        # so that arr now contains sorted numbers
+        i = 0
+        for i in range(0, len(self.subpixmapKeys)):
+            self.subpixmapKeys[i] = output[i]
+            self.count += 1
+            if (self.count >= self.radixsortUpdateThreshold):
+                self.count = 0
+                self.redraw()
 
     def getSubpixmapTuple(self, index):
         if(index < len(self.subpixmapKeys)):
@@ -99,10 +219,24 @@ class Sorter:
             exit(1)
 
     def shuffleImage(self):
-        self.appWidget.disableButtons()
-        random.shuffle(self.subpixmapKeys)
+        self.appWidget.disableAllButtons()
+        self.count = 0
+
+        for i in range(len(self.subpixmapKeys)):
+            j = i + int(random.random() * (len(self.subpixmapKeys) - i))
+            tmp = self.subpixmapKeys[i]
+            self.subpixmapKeys[i] = self.subpixmapKeys[j]
+            self.subpixmapKeys[j] = tmp
+
+            self.count += 1
+            if(self.count > self.shuffleUpdateThreshold):
+                self.count = 0
+                self.redraw()
+
+        # random.shuffle(self.subpixmapKeys)
         self.appWidget.update()
-        self.appWidget.enableButtons()
+        self.appWidget.enableShuffleButton()
+        self.appWidget.enableSortingButtons()
 
     def redraw(self):
         self.appWidget.update()
