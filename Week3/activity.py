@@ -7,7 +7,7 @@ PASSWORD = "password123"
 guess = input("Password: ")
 
 # Write a loop that checks the password
-# When the guess is wrong, ask again
+# Whenever the guess is wrong, tell the user and ask again
 
 
 # When right, tell the user
