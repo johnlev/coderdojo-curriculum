@@ -59,3 +59,8 @@ def main_draw():
     clear()
     for imageKey in imageQueue:
         draw_image(images[imageKey], 0, 0)
+
+
+def done():
+    load_images()
+    start_graphics(main_draw, width=WIDTH, height=HEIGHT)
