@@ -16,20 +16,19 @@ functions to paint the scene.
 
 # Functions to call:
 
-draw_sky()
-draw_sun()
-draw_dark_clouds()
-draw_light_clouds()
-draw_mountains()
-draw_grass()
 draw_road()
+draw_light_clouds()
+draw_grass()
 draw_bush()
+draw_sun()
+draw_mountains()
 draw_flowers()
+draw_dark_clouds()
+draw_sky()
 
 
 # ============================
 # === END OF CODE ACTIVITY ===
 # ============================
 
-load_images()
-start_graphics(main_draw, width=WIDTH, height=HEIGHT)
+done()
