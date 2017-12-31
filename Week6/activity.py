@@ -54,7 +54,7 @@ class PongGame:
         self.rightPoints = 0
         self.rightFontSize = 25
 
-        self.winningPoint = 7
+        self.winningPoint = 100
         self.gameFinished = False
         self.winnerMessage = "{} Wins!"
 
@@ -149,7 +149,8 @@ enable_smoothing()
 game = PongGame()
 
 ballList = []
-ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
+for i in range(35):
+    ballList.append(Ball(game.WIDTH / 2, game.HEIGHT / 2, 10, 0.8, 0.2, 0, game))
 
 leftPaddle = Paddle(10, game.HEIGHT / 2, 20, 100, 0.2, 0.9, 0.1, 'left', game)
 rightPaddle = Paddle(game.WIDTH - 40, game.HEIGHT / 2, 20, 100, 0, 0.3, 0.9, 'right', game)

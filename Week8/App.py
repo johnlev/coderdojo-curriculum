@@ -1,3 +1,9 @@
+"""
+Week 8 - Sorting App
+---------
+AUTHOR: Edward Camp
+"""
+
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
