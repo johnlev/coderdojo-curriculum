@@ -3,11 +3,12 @@ Week 5 - Activity 3: Swimming Whale
 ---------
 AUTHOR: Edward Camp
 """
-from cs1lib import *
-from Week5.Whale import Whale
-from Week5.Bubble import Bubble
 from random import random
 
+from Week5.AdvancedActivities.Bubble import Bubble
+
+from Week5.AdvancedActivities.Whale import Whale
+from cs1lib import *
 
 """
 Activity Description:

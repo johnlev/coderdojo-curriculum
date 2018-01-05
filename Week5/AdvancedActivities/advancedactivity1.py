@@ -3,9 +3,10 @@ Week 5 - Activity 2: Bouncing Ball
 ---------
 AUTHOR: Edward Camp
 """
-from cs1lib import *
-from Week5.Ball import Ball
 import random
+
+from Week5.AdvancedActivities.Ball import Ball
+from cs1lib import *
 
 WIDTH = 800
 HEIGHT = 550

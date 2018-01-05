@@ -1,7 +1,8 @@
 # Idea and spirtes taken from: https://scratch.mit.edu/projects/89605279/
 
+from Week5.AdvancedActivities.WhaleFragment import WhaleFragment
 from cs1lib import *
-from Week5.WhaleFragment import WhaleFragment
+
 
 class Whale:
     def __init__(self, canvasWidth, canvasHeight):
